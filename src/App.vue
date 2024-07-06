@@ -6,7 +6,6 @@ import HeaderSection from './components/HeaderSection.vue';
 <template>
   <NavbarSection />
   <HeaderSection />
-
 </template>
 
 <style>
