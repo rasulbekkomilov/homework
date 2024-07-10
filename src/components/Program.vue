@@ -23,10 +23,11 @@
 </script>
 
 <template>
-   <div class="programms text-center text-white d-flex justify-content-center align-items-center">
+   <div class="programms w-100 text-center text-white d-flex justify-content-center align-items-center flex-column">
       <h1>Get it on Play Store and download on the App Store</h1>
-      <div class="programms-images">
-         
+      <div class="programms-images d-flex justify-content-between mt-5">
+         <img src="@/assets/programms-googleplay.png" alt="Google Play Icon">
+         <img src="@/assets/programms-appstore.png" alt="App Store Icon">
       </div>
    </div>
 </template>
@@ -35,7 +36,12 @@
    .programms {
       margin-top: 30px;
       background-color: #31C5A1;
-      widows: 100%;
       height: 371px;
+   }
+   .programms-images {
+      width: 20%;
+   }
+   .programms > h1 {
+      max-width: 700px;
    }
 </style>
