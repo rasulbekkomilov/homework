@@ -39,7 +39,7 @@
    .image-container{
       display: flex;
       /* flex-direction: column; */
-   }
+   }  
    .header-about_title {
       font-size: 17px;
    }

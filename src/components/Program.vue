@@ -25,9 +25,9 @@
 <template>
    <div class="programms w-100 text-center text-white d-flex justify-content-center align-items-center flex-column">
       <h1>Get it on Play Store and download on the App Store</h1>
-      <div class="programms-images d-flex justify-content-between mt-5">
-         <img src="@/assets/programms-googleplay.png" alt="Google Play Icon">
-         <img src="@/assets/programms-appstore.png" alt="App Store Icon">
+      <div class="programms-images image-container w-25 d-flex justify-content-between mt-5">
+         <img class="img-fluid w-50 px-2" src="@/assets/programms-googleplay.png" alt="Google Play Icon">
+         <img class="img-fluid w-50 px-2" src="@/assets/programms-appstore.png" alt="App Store Icon">
       </div>
    </div>
 </template>
@@ -43,5 +43,11 @@
    }
    .programms > h1 {
       max-width: 700px;
+   }
+   @media (max-width: 500px) {
+      .programms > h1 {
+         font-size: 20px;
+         max-width: 300px;
+      }
    }
 </style>
